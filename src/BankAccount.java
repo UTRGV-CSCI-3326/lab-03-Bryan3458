@@ -1,6 +1,6 @@
 public class BankAccount {
     public static void main(String[] args) {
-        float checking = 2175.37f;
+        double checking = 2175.37;
 
         checking -= 302.50;
 
@@ -16,6 +16,6 @@ public class BankAccount {
 
         checking += 1;
 
-        System.out.print(checking); 
+        System.out.printf("%.2f", checking); 
     }
 }
